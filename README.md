@@ -4,8 +4,11 @@ The train and validation dataset that I used came from research conducted by Dan
 The dataset I use is shared in this folder: https://drive.google.com/drive/folders/1nY6b6gYrhM4sP38vZdAvd3iHDg3nVNKV?usp=sharing
 
 The entire dataset can be viewed here: 
-1.https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
-2.https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia 
-3.https://www.kaggle.com/datasets/amanullahasraf/covid19-pneumonia-normal-chest-xray-pa-dataset  
+
+https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia 
+
+https://www.kaggle.com/datasets/amanullahasraf/covid19-pneumonia-normal-chest-xray-pa-dataset  
 
 Raw images are different scale images in three different formats, namely .jpg, .png, and .jpeg. Raw images with different scales and formats cannot be entered into the model at the same time. So, the dataset must be preprocessed first by converting it to float by dividing each image pixel value by the maximum pixel value of the image. Using this preprocessing the image will have a similar pixel scale i.e., 224x224 with a 32-bit float type that can be entered into the system model.
